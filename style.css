@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #343f56;
+    color: #ccc;
+}
+
+.title {
+    color: #f5e6ca;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+#validate {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #343f56;
+    background-color: #f5e6ca;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#validate:hover {
+    background-color: #ccc;
+}
+
+.crossword-container {
+    overflow-x: auto;
+    max-width: 100%;
+    padding: 20px 0;
+}
+
+.crossword-table {
+    border-collapse: collapse;
+    margin: auto;
+    border-spacing: 0;
+}
+
+.crossword-table td {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #ffffff;
+    transition: background-color 0.3s;
+}
+
+.crossword-table td input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #333;
+    font-weight: bold;
+}
+
+.crossword-table .black-cell {
+    background-color: #333;
+}
+
+.cell-number {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    font-size: 0.8rem;
+    color: #666;
+}
+
+input:focus {
+    background-color: #e0f7fa;
+    outline: none;
+}
+
+.score {
+    font-size: 1.5rem;
+    color: #f5e6ca;
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    font-size: 1.1rem;
+    color: #ccc;
+}
+
+.text-primary {
+    color: #f5e6ca;
+}
+
+.row {
+    margin-top: 30px;
+}
